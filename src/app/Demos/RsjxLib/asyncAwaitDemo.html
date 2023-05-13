@@ -1,0 +1,4 @@
+<div *ngFor = "let user of users.data">
+   <img [src] ="user.avatar">
+   <span>{{user.first_name + " " + user.last_name}}</span>
+</div>
