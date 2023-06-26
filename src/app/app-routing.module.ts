@@ -19,7 +19,11 @@ const routes: Routes = [
   path:'reactiveFormsDemo',
   component:LoginForm,
  },
- {path: 'asyncAwaitDemos', component: AsyncAwaitDemo}
+ {path: 'asyncAwaitDemos', component: AsyncAwaitDemo},
+ {
+  path:'**',
+  component: HomeComponent
+ },
 ];
 
 @NgModule({
